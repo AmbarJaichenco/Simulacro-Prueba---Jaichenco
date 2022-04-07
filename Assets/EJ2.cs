@@ -19,12 +19,14 @@ public class EJ2 : MonoBehaviour
         if (sumapr > dindisp)
         {
             Debug.Log("No hay suficiente dinero disponible");
+            Debug.Log("--------------------");
             float falta = sumapr - dindisp;
             Debug.Log("Faltan $" + falta);
         }
         else
         {
             Debug.Log("Hay suficiente dinero disponible");
+            Debug.Log("--------------------");
             float sobra = dindisp - sumapr;
             Debug.Log("Sobran $" + sobra);
         }
